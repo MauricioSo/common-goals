@@ -1,0 +1,13 @@
+parameters:
+    level: 1
+    paths:
+        - common-goals/includes
+    scanFiles:
+        - common-goals/common-goals.php
+        - vendor/php-stubs/wordpress-stubs/wordpress-stubs.php
+        - tests/stubs/constants.php
+        - tests/stubs/class-wp-sitemaps-provider.php
+    reportUnmatchedIgnoredErrors: false
+
+    parallel:
+        maximumNumberOfProcesses: 1

@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "common-goals/guides",
+    "title": "Common Goals Guides",
+    "description": "Displays published living guides.",
+    "category": "widgets",
+    "icon": "book-alt",
+    "keywords": ["guides", "knowledge", "community"],
+    "attributes": {
+        "limit": {
+            "type": "number",
+            "default": 20
+        }
+    },
+    "supports": {
+        "html": false,
+        "align": ["wide", "full"]
+    },
+    "textdomain": "common-goals",
+    "editorScript": "file:../../../assets/js/blocks/guides-block.js",
+    "render": "file:../../../includes/Blocks/GuidesBlock.php"
+}

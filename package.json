@@ -1,0 +1,16 @@
+{
+  "name": "common-goals-e2e",
+  "version": "1.0.1",
+  "private": true,
+  "description": "E2E tests for Common Goals WordPress plugin",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:smoke": "playwright test --grep @critical",
+    "test:e2e:chromium": "playwright test --project=chromium-desktop",
+    "test:e2e:firefox": "playwright test --project=firefox-desktop",
+    "test:e2e:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}

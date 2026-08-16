@@ -1,0 +1,1126 @@
+# Copyright (C) 2026 Common Goals
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Common Goals 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/common-goals\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-07-16T21:25:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: common-goals\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: common-goals.php
+#: includes/Admin/GoalsAdminPage.php:40
+#: includes/Admin/GoalsAdminPage.php:41
+#: includes/SiteHealth.php:70
+#: includes/SiteHealth.php:118
+#: includes/SiteHealth.php:144
+#: templates/admin-goals-page.php:14
+msgid "Common Goals"
+msgstr ""
+
+#. Description of the plugin
+#: common-goals.php
+msgid "Create goal-oriented community boards with contributions, responses, and living guides."
+msgstr ""
+
+#: includes/Admin/CommunitiesAdminPage.php:43
+#: includes/Admin/CommunitiesAdminPage.php:44
+msgid "Communities"
+msgstr ""
+
+#: includes/Admin/CommunitiesAdminPage.php:57
+#: includes/Admin/CommunitiesAdminPage.php:245
+msgid "You do not have permission to manage communities."
+msgstr ""
+
+#: includes/Admin/CommunitiesAdminPage.php:134
+#: includes/Admin/CommunitiesAdminPage.php:180
+#: includes/Admin/CommunitiesAdminPage.php:219
+msgid "You do not have permission to manage this community."
+msgstr ""
+
+#: includes/Admin/ContributionsAdminPage.php:43
+#: includes/Admin/ContributionsAdminPage.php:44
+msgid "Contributions"
+msgstr ""
+
+#: includes/Admin/ContributionsAdminPage.php:57
+#: includes/Admin/ContributionsAdminPage.php:169
+#: includes/Admin/ContributionsAdminPage.php:234
+#: includes/Admin/ContributionsAdminPage.php:370
+msgid "You do not have permission to moderate contributions."
+msgstr ""
+
+#: includes/Admin/ContributionsAdminPage.php:85
+msgid "You do not have permission to create guides for this community."
+msgstr ""
+
+#: includes/Admin/ContributionsAdminPage.php:196
+#: includes/Admin/ContributionsAdminPage.php:327
+#: includes/Admin/ContributionsAdminPage.php:377
+msgid "You do not have permission to moderate this community."
+msgstr ""
+
+#: includes/Admin/ContributionsAdminPage.php:300
+msgid "You do not have permission to moderate responses."
+msgstr ""
+
+#: includes/Admin/EventsAdminPage.php:37
+#: includes/Admin/EventsAdminPage.php:38
+msgid "Events"
+msgstr ""
+
+#: includes/Admin/EventsAdminPage.php:59
+msgid "You do not have permission to view events."
+msgstr ""
+
+#: includes/Admin/EventsAdminPage.php:66
+msgid "You do not have permission to view this community."
+msgstr ""
+
+#: includes/Admin/GoalsAdminPage.php:56
+#: includes/Admin/GoalsAdminPage.php:130
+#: includes/Admin/GoalsAdminPage.php:210
+msgid "You do not have permission to manage goals."
+msgstr ""
+
+#: includes/Admin/GuidesAdminPage.php:41
+#: includes/Admin/GuidesAdminPage.php:42
+msgid "Guides"
+msgstr ""
+
+#: includes/Admin/GuidesAdminPage.php:55
+#: includes/Admin/GuidesAdminPage.php:135
+msgid "You do not have permission to edit guides."
+msgstr ""
+
+#: includes/Admin/GuidesAdminPage.php:78
+#: includes/Admin/GuidesAdminPage.php:142
+msgid "You do not have permission to edit guides for this community."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:43
+#: includes/Admin/SettingsPage.php:44
+msgid "Settings"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:62
+msgid "General"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:63
+msgid "Moderation"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:64
+msgid "Privacy and data"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:66
+msgid "Allow guest posting"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:66
+msgid "When enabled, unauthenticated visitors can submit contributions and responses. All guest submissions enter the pending queue."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:67
+msgid "Delete all data on uninstall"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:67
+msgid "Removes all tables, options and capabilities when the plugin is uninstalled. Off by default to prevent data loss."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:69
+msgid "Rate limit (submissions per window)"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:69
+msgid "Maximum submissions per user within the rate limit window."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:70
+msgid "Enable honeypot"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:70
+msgid "Hidden field that catches basic bots without affecting human users."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:72
+msgid "Event log retention (days)"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:72
+msgid "Events older than this are automatically deleted by a daily cron job."
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:85
+msgid "Enabled"
+msgstr ""
+
+#: includes/Admin/SettingsPage.php:111
+msgid "You do not have permission to manage Common Goals settings."
+msgstr ""
+
+#: includes/Capabilities.php:43
+msgid "Common Goals Moderator"
+msgstr ""
+
+#: includes/Exporter.php:64
+msgid "You do not have permission to export data."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:97
+msgid "No community goal has been created yet."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:206
+#: includes/Frontend/GuideRouter.php:159
+msgid "Unknown user"
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:415
+msgid "Your contribution has been published."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:416
+msgid "Your contribution has been submitted and is awaiting moderation."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:417
+msgid "Your response has been published."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:418
+msgid "Your response has been submitted and is awaiting moderation."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:419
+msgid "The selected goal is not available."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:420
+msgid "That contribution type is not allowed for this goal."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:421
+msgid "That contribution is no longer available."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:422
+msgid "Please write a response before submitting."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:423
+msgid "Your submission exceeds the maximum allowed length."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:424
+msgid "You are submitting too quickly. Please wait a few minutes."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:425
+msgid "Guest posting is disabled. Please log in to participate."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:426
+msgid "Your submission was flagged as spam and has not been published."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:427
+msgid "Something went wrong saving your submission. Please try again."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:428
+msgid "Your contribution has been updated."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:429
+msgid "Your contribution has been deleted."
+msgstr ""
+
+#: includes/Frontend/BoardShortcode.php:430
+msgid "You do not have permission to do that."
+msgstr ""
+
+#: includes/Frontend/GuideRouter.php:155
+#: includes/Frontend/GuideRouter.php:275
+#: templates/board.php:167
+msgid "Guest"
+msgstr ""
+
+#: includes/Frontend/GuideRouter.php:224
+msgid "Living Guide"
+msgstr ""
+
+#. translators: %s: guide last updated date.
+#: includes/Frontend/GuideRouter.php:228
+#, php-format
+msgid "Updated %s"
+msgstr ""
+
+#: includes/Frontend/GuideRouter.php:233
+msgid "Back to guides"
+msgstr ""
+
+#: includes/Frontend/GuideRouter.php:273
+#: templates/admin-contributions-page.php:127
+#: templates/board.php:196
+msgid "Responses"
+msgstr ""
+
+#: includes/Frontend/GuideRouter.php:275
+msgid "Unknown"
+msgstr ""
+
+#: includes/Frontend/GuideRouter.php:284
+msgid "Back to site"
+msgstr ""
+
+#. translators: 1: site name, 2: contribution title.
+#: includes/Notifications.php:62
+#, php-format
+msgid "[%1$s] New contribution awaiting moderation: %2$s"
+msgstr ""
+
+#: includes/Notifications.php:67
+msgid ""
+"A new contribution is awaiting your review.\n"
+"\n"
+""
+msgstr ""
+
+#. translators: %s: contribution title.
+#: includes/Notifications.php:69
+#: includes/Notifications.php:180
+#, php-format
+msgid ""
+"Title: %s\n"
+""
+msgstr ""
+
+#. translators: %s: contribution type.
+#: includes/Notifications.php:71
+#, php-format
+msgid ""
+"Type: %s\n"
+""
+msgstr ""
+
+#. translators: %s: contribution topic.
+#: includes/Notifications.php:73
+#, php-format
+msgid ""
+"Topic: %s\n"
+""
+msgstr ""
+
+#. translators: 1: site name, 2: contribution title.
+#: includes/Notifications.php:127
+#, php-format
+msgid "[%1$s] New response to your contribution: %2$s"
+msgstr ""
+
+#: includes/Notifications.php:132
+msgid ""
+"Someone responded to your contribution.\n"
+"\n"
+""
+msgstr ""
+
+#. translators: %s: contribution title.
+#: includes/Notifications.php:134
+#, php-format
+msgid ""
+"Contribution: %s\n"
+""
+msgstr ""
+
+#. translators: 1: site name, 2: contribution title.
+#: includes/Notifications.php:173
+#, php-format
+msgid "[%1$s] Your contribution has been approved: %2$s"
+msgstr ""
+
+#: includes/Notifications.php:178
+msgid ""
+"Your contribution has been approved and is now visible.\n"
+"\n"
+""
+msgstr ""
+
+#. translators: %s: contribution status.
+#: includes/Notifications.php:182
+#, php-format
+msgid ""
+"Status: %s\n"
+""
+msgstr ""
+
+#: includes/Privacy.php:40
+#: includes/Privacy.php:56
+msgid "Common Goals Community Data"
+msgstr ""
+
+#: includes/Privacy.php:97
+msgid "Common Goals Memberships"
+msgstr ""
+
+#: includes/Privacy.php:100
+#: templates/admin-contributions-page.php:55
+#: templates/admin-events-page.php:27
+#: templates/admin-goals-page.php:37
+#: templates/admin-goals-page.php:116
+#: templates/admin-goals-page.php:153
+#: templates/admin-guides-page.php:44
+msgid "Community"
+msgstr ""
+
+#: includes/Privacy.php:101
+#: templates/admin-communities-page.php:97
+#: templates/admin-communities-page.php:127
+msgid "Role"
+msgstr ""
+
+#: includes/Privacy.php:102
+#: includes/Privacy.php:125
+#: includes/Privacy.php:145
+msgid "Date"
+msgstr ""
+
+#: includes/Privacy.php:117
+#: templates/admin-contributions-page.php:39
+msgid "Common Goals Contributions"
+msgstr ""
+
+#: includes/Privacy.php:120
+#: templates/admin-goals-page.php:115
+#: templates/admin-goals-page.php:164
+#: templates/admin-guides-page.php:78
+#: templates/board.php:95
+msgid "Title"
+msgstr ""
+
+#: includes/Privacy.php:121
+#: templates/board.php:79
+msgid "Type"
+msgstr ""
+
+#: includes/Privacy.php:122
+#: templates/admin-goals-page.php:117
+#: templates/admin-goals-page.php:214
+#: templates/admin-guides-page.php:99
+msgid "Status"
+msgstr ""
+
+#: includes/Privacy.php:123
+#: templates/board.php:90
+#: templates/board.php:140
+msgid "Topic"
+msgstr ""
+
+#: includes/Privacy.php:124
+#: includes/Privacy.php:144
+msgid "Body"
+msgstr ""
+
+#: includes/Privacy.php:140
+msgid "Common Goals Responses"
+msgstr ""
+
+#: includes/Privacy.php:143
+msgid "Contribution"
+msgstr ""
+
+#: includes/Privacy.php:202
+msgid "Common Goals community data has been anonymized."
+msgstr ""
+
+#: includes/Privacy.php:234
+msgid "Common Goals stores community memberships, contributions and responses linked to user accounts. When you submit content, your user ID is recorded alongside the submission. Guest submissions are attributed to user ID 0 (anonymous)."
+msgstr ""
+
+#: includes/Privacy.php:235
+msgid "If you request data export or erasure, your community contributions and responses will be included. Upon erasure, your content is anonymized (user ID set to 0) but the content itself is retained to preserve community continuity."
+msgstr ""
+
+#: includes/Privacy.php:236
+msgid "The plugin does not collect IP addresses, cookies, or browser fingerprints."
+msgstr ""
+
+#: includes/RestApi.php:130
+msgid "Goal not found."
+msgstr ""
+
+#: includes/RestApi.php:208
+msgid "Contribution not found."
+msgstr ""
+
+#: includes/RestApi.php:239
+msgid "Invalid goal."
+msgstr ""
+
+#: includes/RestApi.php:245
+msgid "Type not allowed for this goal."
+msgstr ""
+
+#: includes/RestApi.php:249
+msgid "Title and body are required."
+msgstr ""
+
+#: includes/RestApi.php:257
+msgid "Guest posting is disabled."
+msgstr ""
+
+#: includes/RestApi.php:277
+msgid "Database error."
+msgstr ""
+
+#: includes/RestApi.php:338
+msgid "Guide not found."
+msgstr ""
+
+#: includes/SiteHealth.php:46
+msgid "Common Goals database tables"
+msgstr ""
+
+#: includes/SiteHealth.php:51
+msgid "Common Goals schema version"
+msgstr ""
+
+#: includes/SiteHealth.php:68
+msgid "Common Goals tables are present"
+msgstr ""
+
+#: includes/SiteHealth.php:71
+msgid "All custom tables were found in the database."
+msgstr ""
+
+#: includes/SiteHealth.php:97
+msgid "Common Goals tables are missing"
+msgstr ""
+
+#: includes/SiteHealth.php:99
+msgid "The following tables are missing"
+msgstr ""
+
+#: includes/SiteHealth.php:100
+msgid "Reactivate the plugin"
+msgstr ""
+
+#: includes/SiteHealth.php:116
+msgid "Common Goals schema is up to date"
+msgstr ""
+
+#: includes/SiteHealth.php:119
+msgid "Installed schema matches plugin version."
+msgstr ""
+
+#: includes/SiteHealth.php:125
+msgid "Common Goals schema is outdated"
+msgstr ""
+
+#: includes/SiteHealth.php:127
+msgid "The database schema is behind the plugin version. A migration may be pending."
+msgstr ""
+
+#: includes/SiteHealth.php:147
+msgid "Plugin version"
+msgstr ""
+
+#: includes/SiteHealth.php:151
+msgid "Schema version"
+msgstr ""
+
+#: includes/SiteHealth.php:152
+msgid "Not set"
+msgstr ""
+
+#: includes/SiteHealth.php:155
+msgid "Total contributions"
+msgstr ""
+
+#: includes/SiteHealth.php:159
+msgid "Total communities"
+msgstr ""
+
+#: includes/SiteHealth.php:163
+msgid "Published guides"
+msgstr ""
+
+#: includes/SiteHealth.php:167
+msgid "Event retention (days)"
+msgstr ""
+
+#: includes/SiteHealth.php:194
+msgid "Common Goals Daily"
+msgstr ""
+
+#: templates/admin-communities-page.php:15
+#: templates/admin-communities-page.php:131
+msgid "Admin"
+msgstr ""
+
+#: templates/admin-communities-page.php:16
+#: templates/admin-communities-page.php:130
+msgid "Moderator"
+msgstr ""
+
+#: templates/admin-communities-page.php:17
+#: templates/admin-communities-page.php:129
+msgid "Member"
+msgstr ""
+
+#: templates/admin-communities-page.php:22
+msgid "Common Goals Communities"
+msgstr ""
+
+#: templates/admin-communities-page.php:31
+msgid "An error occurred."
+msgstr ""
+
+#: templates/admin-communities-page.php:31
+msgid "Action completed."
+msgstr ""
+
+#: templates/admin-communities-page.php:36
+msgid "Create Community"
+msgstr ""
+
+#: templates/admin-communities-page.php:42
+msgid "Name"
+msgstr ""
+
+#: templates/admin-communities-page.php:46
+#: templates/admin-goals-page.php:57
+#: templates/admin-goals-page.php:171
+msgid "Description"
+msgstr ""
+
+#: templates/admin-communities-page.php:50
+msgid "Create community"
+msgstr ""
+
+#: templates/admin-communities-page.php:56
+msgid "Existing Communities"
+msgstr ""
+
+#: templates/admin-communities-page.php:65
+#: templates/admin-contributions-page.php:98
+#: templates/admin-contributions-page.php:132
+#: templates/admin-guides-page.php:62
+msgid "Status:"
+msgstr ""
+
+#: templates/admin-communities-page.php:66
+msgid "Goals:"
+msgstr ""
+
+#: templates/admin-communities-page.php:70
+msgid "Edit community"
+msgstr ""
+
+#: templates/admin-communities-page.php:83
+#: templates/admin-goals-page.php:216
+msgid "Active"
+msgstr ""
+
+#: templates/admin-communities-page.php:84
+#: templates/admin-goals-page.php:217
+msgid "Inactive"
+msgstr ""
+
+#: templates/admin-communities-page.php:86
+msgid "Save"
+msgstr ""
+
+#: templates/admin-communities-page.php:92
+msgid "Members"
+msgstr ""
+
+#: templates/admin-communities-page.php:96
+msgid "User"
+msgstr ""
+
+#: templates/admin-communities-page.php:98
+#: templates/admin-communities-page.php:112
+msgid "Remove"
+msgstr ""
+
+#: templates/admin-communities-page.php:124
+msgid "User ID"
+msgstr ""
+
+#: templates/admin-communities-page.php:134
+msgid "Add member"
+msgstr ""
+
+#: templates/admin-communities-page.php:140
+msgid "No communities exist yet. The migration should have created a default one — try reactivating the plugin."
+msgstr ""
+
+#: templates/admin-contributions-page.php:22
+#: templates/admin-contributions-page.php:31
+#: templates/board.php:32
+msgid "Pending"
+msgstr ""
+
+#: templates/admin-contributions-page.php:23
+#: templates/board.php:29
+msgid "Open"
+msgstr ""
+
+#: templates/admin-contributions-page.php:24
+#: templates/board.php:30
+msgid "In Progress"
+msgstr ""
+
+#: templates/admin-contributions-page.php:25
+#: templates/board.php:31
+msgid "Resolved"
+msgstr ""
+
+#: templates/admin-contributions-page.php:26
+#: templates/admin-contributions-page.php:33
+#: templates/board.php:33
+msgid "Spam"
+msgstr ""
+
+#: templates/admin-contributions-page.php:27
+#: templates/admin-contributions-page.php:34
+#: templates/admin-guides-page.php:23
+#: templates/board.php:34
+msgid "Hidden"
+msgstr ""
+
+#: templates/admin-contributions-page.php:32
+#: templates/admin-guides-page.php:22
+msgid "Published"
+msgstr ""
+
+#: templates/admin-contributions-page.php:48
+#: templates/admin-goals-page.php:23
+#: templates/admin-guides-page.php:37
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: templates/admin-contributions-page.php:48
+#: templates/admin-goals-page.php:23
+#: templates/admin-guides-page.php:37
+msgid "Action completed successfully."
+msgstr ""
+
+#: templates/admin-contributions-page.php:57
+#: templates/admin-events-page.php:29
+#: templates/admin-guides-page.php:46
+msgid "All communities"
+msgstr ""
+
+#: templates/admin-contributions-page.php:63
+#: templates/admin-events-page.php:35
+#: templates/admin-guides-page.php:52
+msgid "Filter"
+msgstr ""
+
+#: templates/admin-contributions-page.php:73
+msgid "Bulk action"
+msgstr ""
+
+#: templates/admin-contributions-page.php:80
+msgid "Apply to selected"
+msgstr ""
+
+#: templates/admin-contributions-page.php:92
+msgid "Goal:"
+msgstr ""
+
+#: templates/admin-contributions-page.php:93
+msgid "Unknown goal"
+msgstr ""
+
+#: templates/admin-contributions-page.php:94
+#: templates/admin-guides-page.php:64
+msgid "Community:"
+msgstr ""
+
+#: templates/admin-contributions-page.php:95
+#: templates/admin-guides-page.php:65
+msgid "Unknown community"
+msgstr ""
+
+#: templates/admin-contributions-page.php:96
+msgid "Type:"
+msgstr ""
+
+#: templates/admin-contributions-page.php:109
+msgid "Moderation status"
+msgstr ""
+
+#: templates/admin-contributions-page.php:119
+msgid "Update status"
+msgstr ""
+
+#: templates/admin-contributions-page.php:151
+msgid "Update"
+msgstr ""
+
+#: templates/admin-contributions-page.php:159
+msgid "Create living guide from this contribution"
+msgstr ""
+
+#: templates/admin-contributions-page.php:168
+msgid "Guide title"
+msgstr ""
+
+#: templates/admin-contributions-page.php:177
+msgid "Guide content"
+msgstr ""
+
+#: templates/admin-contributions-page.php:184
+msgid "Publish guide"
+msgstr ""
+
+#: templates/admin-contributions-page.php:191
+msgid "No contributions have been created yet."
+msgstr ""
+
+#: templates/admin-contributions-page.php:195
+msgid "Export"
+msgstr ""
+
+#: templates/admin-contributions-page.php:199
+msgid "Download a JSON export of all community data including communities, members, goals, contributions, responses, guides and events."
+msgstr ""
+
+#: templates/admin-contributions-page.php:200
+msgid "Download JSON export"
+msgstr ""
+
+#: templates/admin-events-page.php:20
+msgid "Common Goals Events"
+msgstr ""
+
+#: templates/admin-events-page.php:22
+msgid "Recent community activity. This log feeds future analytics, exports, and Cloud synchronization."
+msgstr ""
+
+#: templates/admin-events-page.php:42
+msgid "When"
+msgstr ""
+
+#: templates/admin-events-page.php:43
+msgid "Event"
+msgstr ""
+
+#: templates/admin-events-page.php:44
+msgid "Object"
+msgstr ""
+
+#: templates/admin-events-page.php:45
+msgid "By"
+msgstr ""
+
+#: templates/admin-events-page.php:46
+#: templates/board.php:100
+msgid "Context"
+msgstr ""
+
+#: templates/admin-events-page.php:71
+msgid "No events recorded yet."
+msgstr ""
+
+#: templates/admin-goals-page.php:27
+msgid "Create Community Goal"
+msgstr ""
+
+#: templates/admin-goals-page.php:49
+msgid "Goal title"
+msgstr ""
+
+#: templates/admin-goals-page.php:65
+#: templates/admin-goals-page.php:178
+msgid "Who benefits?"
+msgstr ""
+
+#: templates/admin-goals-page.php:72
+#: templates/admin-goals-page.php:184
+msgid "Allowed contribution types"
+msgstr ""
+
+#: templates/admin-goals-page.php:76
+#: templates/admin-goals-page.php:191
+#: templates/board.php:38
+msgid "Question"
+msgstr ""
+
+#: templates/admin-goals-page.php:77
+#: templates/admin-goals-page.php:192
+#: templates/board.php:39
+msgid "Problem"
+msgstr ""
+
+#: templates/admin-goals-page.php:78
+#: templates/admin-goals-page.php:193
+#: templates/board.php:40
+msgid "Experience"
+msgstr ""
+
+#: templates/admin-goals-page.php:79
+#: templates/admin-goals-page.php:194
+#: templates/board.php:41
+msgid "Resource"
+msgstr ""
+
+#: templates/admin-goals-page.php:89
+msgid "Select which contribution types members can submit to this goal."
+msgstr ""
+
+#: templates/admin-goals-page.php:94
+#: templates/admin-goals-page.php:207
+msgid "Alignment rules"
+msgstr ""
+
+#: templates/admin-goals-page.php:98
+msgid "Explain what belongs in this community and what does not."
+msgstr ""
+
+#: templates/admin-goals-page.php:104
+msgid "Create goal"
+msgstr ""
+
+#: templates/admin-goals-page.php:109
+msgid "Existing Goals"
+msgstr ""
+
+#: templates/admin-goals-page.php:114
+msgid "ID"
+msgstr ""
+
+#: templates/admin-goals-page.php:118
+msgid "Shortcode"
+msgstr ""
+
+#: templates/admin-goals-page.php:119
+#: templates/board.php:176
+msgid "Edit"
+msgstr ""
+
+#: templates/admin-goals-page.php:137
+msgid "Inactive or missing"
+msgstr ""
+
+#: templates/admin-goals-page.php:144
+msgid "Edit goal"
+msgstr ""
+
+#: templates/admin-goals-page.php:222
+msgid "Save goal"
+msgstr ""
+
+#: templates/admin-goals-page.php:230
+msgid "No goals created yet."
+msgstr ""
+
+#: templates/admin-guides-page.php:20
+msgid "Draft"
+msgstr ""
+
+#: templates/admin-guides-page.php:21
+msgid "In Review"
+msgstr ""
+
+#: templates/admin-guides-page.php:28
+msgid "Common Goals Guides"
+msgstr ""
+
+#: templates/admin-guides-page.php:60
+msgid "Slug:"
+msgstr ""
+
+#: templates/admin-guides-page.php:69
+msgid "Edit guide"
+msgstr ""
+
+#: templates/admin-guides-page.php:85
+msgid "Slug"
+msgstr ""
+
+#: templates/admin-guides-page.php:92
+msgid "Content"
+msgstr ""
+
+#: templates/admin-guides-page.php:110
+msgid "Save guide"
+msgstr ""
+
+#: templates/admin-guides-page.php:116
+msgid "No guides have been created yet."
+msgstr ""
+
+#: templates/admin-settings-page.php:14
+msgid "Common Goals Settings"
+msgstr ""
+
+#: templates/board.php:47
+msgid "Community Goal"
+msgstr ""
+
+#: templates/board.php:53
+msgid "Helps:"
+msgstr ""
+
+#: templates/board.php:66
+msgid "Add a contribution"
+msgstr ""
+
+#: templates/board.php:91
+msgid "Example: onboarding, pricing, setup"
+msgstr ""
+
+#: templates/board.php:105
+msgid "Submissions from guests are held for moderation before appearing publicly."
+msgstr ""
+
+#: templates/board.php:108
+msgid "Publish contribution"
+msgstr ""
+
+#: templates/board.php:112
+msgid "Recent contributions"
+msgstr ""
+
+#: templates/board.php:116
+msgid "Filter by type"
+msgstr ""
+
+#: templates/board.php:118
+msgid "All types"
+msgstr ""
+
+#: templates/board.php:128
+msgid "Filter by status"
+msgstr ""
+
+#: templates/board.php:130
+msgid "All visible statuses"
+msgstr ""
+
+#: templates/board.php:141
+msgid "Filter by topic"
+msgstr ""
+
+#: templates/board.php:145
+msgid "Search"
+msgstr ""
+
+#: templates/board.php:146
+msgid "Search contributions"
+msgstr ""
+
+#: templates/board.php:150
+msgid "Apply filters"
+msgstr ""
+
+#: templates/board.php:183
+msgid "Save changes"
+msgstr ""
+
+#: templates/board.php:186
+msgid "Delete this contribution and all its responses? This cannot be undone."
+msgstr ""
+
+#: templates/board.php:190
+msgid "Delete"
+msgstr ""
+
+#: templates/board.php:207
+msgid "No responses yet."
+msgstr ""
+
+#: templates/board.php:222
+msgid "Add a response"
+msgstr ""
+
+#: templates/board.php:226
+msgid "Send response"
+msgstr ""
+
+#: templates/board.php:233
+msgid "Pagination"
+msgstr ""
+
+#: templates/board.php:248
+msgid "No contributions found matching your filters."
+msgstr ""
+
+#: templates/guides.php:21
+msgid "Living Guides"
+msgstr ""
+
+#: templates/guides.php:22
+msgid "Community Knowledge"
+msgstr ""
+
+#: templates/guides.php:36
+msgid "Updated:"
+msgstr ""
+
+#: templates/guides.php:43
+msgid "No living guides have been published yet."
+msgstr ""
+
+#: assets/js/blocks/board/block.json
+msgctxt "block title"
+msgid "Common Goals Board"
+msgstr ""
+
+#: assets/js/blocks/board/block.json
+msgctxt "block description"
+msgid "Displays a goal-oriented community board with contributions and responses."
+msgstr ""
+
+#: assets/js/blocks/board/block.json
+#: assets/js/blocks/guides/block.json
+msgctxt "block keyword"
+msgid "community"
+msgstr ""
+
+#: assets/js/blocks/board/block.json
+msgctxt "block keyword"
+msgid "goals"
+msgstr ""
+
+#: assets/js/blocks/board/block.json
+msgctxt "block keyword"
+msgid "board"
+msgstr ""
+
+#: assets/js/blocks/guides/block.json
+msgctxt "block title"
+msgid "Common Goals Guides"
+msgstr ""
+
+#: assets/js/blocks/guides/block.json
+msgctxt "block description"
+msgid "Displays published living guides."
+msgstr ""
+
+#: assets/js/blocks/guides/block.json
+msgctxt "block keyword"
+msgid "guides"
+msgstr ""
+
+#: assets/js/blocks/guides/block.json
+msgctxt "block keyword"
+msgid "knowledge"
+msgstr ""

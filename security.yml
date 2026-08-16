@@ -1,0 +1,36 @@
+name: Security checks
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+permissions:
+  contents: read
+
+jobs:
+  secret-scan:
+    name: Scan for committed secrets
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  filename-policy:
+    name: Check public package boundaries
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject sensitive filenames
+        shell: bash
+        run: |
+          if find . -type f \( -name '.env*' -o -name '*.pem' -o -name '*.key' -o -name '*.p12' -o -name '*.pfx' -o -name '*.sqlite' -o -name '*.db' -o -name '*.zip' \) -not -path './.git/*' | grep -q .; then
+            echo 'Sensitive or generated file detected.'
+            find . -type f \( -name '.env*' -o -name '*.pem' -o -name '*.key' -o -name '*.p12' -o -name '*.pfx' -o -name '*.sqlite' -o -name '*.db' -o -name '*.zip' \) -not -path './.git/*'
+            exit 1
+          fi

@@ -18,10 +18,10 @@ jobs:
         run: |
           set -euo pipefail
           mkdir .common-goals-package
-          unzip -q common-goals-public-package.zip -d .common-goals-package
+          unzip -q common-goals-public-package-no-workflows.zip -d .common-goals-package
           find . -mindepth 1 -maxdepth 1 ! -name .git ! -name .common-goals-package -exec rm -rf {} +
           cp -a .common-goals-package/. .
-          rm -rf .common-goals-package common-goals-public-package.zip .github/workflows/unpack.yml
+          rm -rf .common-goals-package common-goals-public-package.zip common-goals-public-package-no-workflows.zip .github/workflows/unpack.yml
           git config user.name "MauricioSo"
           git config user.email "44930392+MauricioSo@users.noreply.github.com"
           git add --all

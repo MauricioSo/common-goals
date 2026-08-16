@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "common-goals/board",
+    "title": "Common Goals Board",
+    "description": "Displays a goal-oriented community board with contributions and responses.",
+    "category": "widgets",
+    "icon": "groups",
+    "keywords": ["community", "goals", "board"],
+    "attributes": {
+        "goal_id": {
+            "type": "number",
+            "default": 0
+        },
+        "community_id": {
+            "type": "number",
+            "default": 0
+        }
+    },
+    "supports": {
+        "html": false,
+        "align": ["wide", "full"]
+    },
+    "textdomain": "common-goals",
+    "editorScript": "file:../../../assets/js/blocks/board-block.js",
+    "render": "file:../../../includes/Blocks/BoardBlock.php"
+}
